@@ -35,3 +35,24 @@ Are you a Docker person? Use this.
 Are you struggling to get the others set up and want something really easy (with the caveat that we can't really help much)?
 
 [XAMPP](https://www.apachefriends.org/index.html)
+
+# Building Our Projects
+
+First check the README for the project you were assigned to. Likely there might already be something there.
+
+Otherwise, here's the general process:
+
+`.env` needs to be filled with your MySQL details.
+
+```bash
+cp .env-example .env
+composer install
+yarn install
+yarn run watch
+```
+
+# General Troubleshooting
+If you get an error about Composer running out of memory, please set the environment variable:
+`COMPOSER_MEMORY_LIMIT=-1`
+You may need to persist this in your `.bashrc` (or equivalent).
+If you're wondering why this is happening... https://github.com/composer/composer/issues/1898
