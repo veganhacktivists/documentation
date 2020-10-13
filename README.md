@@ -55,8 +55,6 @@ yarn run watch
 
 When you have free time to volunteer with us and take on something to work on, please feel free to reach out to your PL. We're ecstatic to hear from you and would be happy to tell you what needs to be done and how we can help you out. We try to keep the Trello boards as up to date as possible but you're encouraged to ping if you want the most up to date info.
 
-We have people from all walks of life volunteer. Some are fairly new to Laravel and Git. This isn't a paid position and we don't judge you, please don't hesitate to try to help. We would love your contributions. Please don't feel like we'll judge you. 💖
-
 Here's our ideal workflow:
 
 ```bash
@@ -69,6 +67,8 @@ git push origin feature/my-trello-card
 ```
 
 Then go to the repository, make your pull request, check the files over, assign your PL, and sit back and relax. 😎
+
+If you see something that needs to be done while you're working on the code (e.g. a navbar doesn't look right, etc.), *please make a Trello card*. Keeping the Trello board and all the bugs current is difficult and it would incredibly help.
 
 # General Troubleshooting
 
@@ -83,3 +83,7 @@ Check your .env and make sure the password, username, hostname, etc. are all cor
 
 ### CSS doesn't show up properly.
 Make sure you've run yarn install and yarn run watch and that those succeed.
+
+# Resources
+
+Here's some quick links for your reference that might help your activism: [Awesome Laravel](https://github.com/chiraggude/awesome-laravel)
