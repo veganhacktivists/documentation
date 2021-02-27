@@ -36,6 +36,10 @@ Are you struggling to get the others set up and want something really easy (with
 
 [XAMPP](https://www.apachefriends.org/index.html)
 
+If you need help with env setup or have questions about anything else, don't hesitate to reach out to your PL! They're there to help 😄
+
+And, once you discover the solution, we encourage you to open a PR to update this doc! This will benefit everyone who will join after you.
+
 # Building Our Projects
 
 First check the README for the project you were assigned to. Likely there might already be something there.
